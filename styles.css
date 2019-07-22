@@ -646,7 +646,80 @@ hr {
 
 
 
+/* Work */
+.work {
+    padding-top: 100px;
+}
 
+.work__inner {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.work__col {
+    flex: 1 1 0;
+}
+
+.work__item {
+    position: relative;
+}
+
+.work__img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.work__overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 9999;
+
+    opacity: 0;
+    transition: opacity .2s linear;
+    text-align: center;
+}
+
+.work__overlay:hover {
+    background: linear-gradient(to bottom, #F38181, #FBE389);
+    opacity: .9;
+}
+
+.work__icon {
+    width: 30px;
+    margin: 0 auto 15px;
+}
+
+.work__title {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.work__text {
+    margin: 0 0 20px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+/* Testimonial */
+.testimonial {
+    padding: 110px 0;
+}
+
+.testimonial__image {
+    vertical-align: middle;
+    height: 100%;
+}
 
 
 

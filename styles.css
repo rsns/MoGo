@@ -881,23 +881,95 @@ hr {
 
 
 /* Footer */
-
-
-
-/* Blogposts */
 .footer__inner {
+    padding: 70px 0 40px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
 }
 
+/* Subscribe */
 .footer__subscribe {
     max-width: 460px;
     width: 40%;
 }
 
+.subscribe__paragraph {
+    margin: 0;
+}
+
+.footer__logo {
+    margin-bottom: 35px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ccc;
+}
+
+.subscribe__text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #999;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 7px;
+}
+
+.subscribe__follow {
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.follow__cta {
+    font-size: 14px;
+    color: #999;
+}
+
+.follow__icon {
+    margin-left: 15px;
+}
+
+.subscribe__form {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+}
+
+.subscribe__email {
+    padding: 8px;
+    width: 60%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ccc;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+}
+
+.subscribe__button {
+    width: 40%;
+    padding: 8px;
+    display: inline-block;
+
+    text-align: center;
+    background-color: #95E1D3;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* Blogposts */
 .footer__blogposts {
     max-width: 330px;
     width: 30%;
+}
+
+.blogposts__title {
+    margin-bottom: 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
 }
 
 .blogpost {
@@ -931,9 +1003,13 @@ hr {
 }
 
 
-
-
 /* Instagram */
+.instagram__title {
+    margin-bottom: 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
 
 .footer__instagram {
     width: 25%;
@@ -950,5 +1026,26 @@ hr {
     width: 88px;
     height: 88px;
     vertical-align: middle;
+}
 
+.instagram__more {
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+/* Footer bottom */
+.footer__bottom {
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom__text {
+    font-size: 14px;
+    color: #333;
+}
+
+.author {
+    color: #F38181;
 }

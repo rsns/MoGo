@@ -14,7 +14,12 @@
       <div class="container">
           <div class="header__inner">
               <div class="header__logo">MoGo</div>
-              <nav class="nav">
+              <div class="nav-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <nav class="header__nav">
                   <a class="nav__link active" href="#">About</a>
                   <a class="nav__link" href="#">Service</a>
                   <a class="nav__link" href="#">Blog</a>
@@ -114,11 +119,11 @@
               <div class="stat__count">15</div>
               <div class="stat__text">Award winner</div>
             </div>
-            <div class="stat__item">
+            <div class="stat__item stat__item--coffee">
               <div class="stat__count">99</div>
               <div class="stat__text">Cup of coffee</div>
             </div>
-            <div class="stat__item">
+            <div class="stat__item stat__item--members">
               <div class="stat__count">24</div>
               <div class="stat__text">Members</div>
             </div>
@@ -152,7 +157,7 @@
               </div>
             </div>  <!-- Services -->
 
-            <hr>
+            <hr class="services__hr">
 
             <div class="services">
               <div class="services__item">
@@ -199,11 +204,11 @@
             </div>
           </div>
             <div class="whatwedo">
-              <div class="whatwedo__item">
-                <img src="/images/whatwedo/1.jpg" alt="">
+              <div class="whatwedo__item image">
+                <img src="/images/whatwedo/1.jpg" alt="" class="whatwedo__img">
               </div>
-              <div class="whatwedo__item">
-                <div class="accordion">
+              <div class="whatwedo__item accordion">
+         
                   <div class="accordion__item active">
                     <div class="accordion__header">
                       <img src="/images/whatwedo/icons/1.png" alt="" class="accordion__icon">
@@ -243,7 +248,7 @@
                       </p>
                     </div>
                   </div>
-                </div>  <!-- Accordion -->
+
               </div>
             </div>  <!-- Whatwedo -->
         </div>
@@ -388,8 +393,8 @@
 
   <div class="work">
     <div class="section__header">
-        <h3 class="section__suptitle">Who we are</h3>
-        <h2 class="section__title">Meet the team</h2>
+        <h3 class="section__suptitle">What we do</h3>
+        <h2 class="section__title">some of our work</h2>
         <div  class="section__text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -479,7 +484,6 @@
       </div>
   </div>
 
-
   <div class="whatpeoplesay">
     <div class="container">
       <div class="whatpeoplesay__inner">
@@ -533,71 +537,88 @@
         </div>
         <div class="blog__inner">
           <div class="blog__item">
-            <div class="blog__date">
-              <div class="date__day">24</div>
-              <div class="date__month">Jan</div>
-            </div>
-            <img src="./images/blog/1.jpg" alt="" class="blog__img">
-            <div class="blog__text">
-              <div class="blog__title">Lorem ipsum dolor sit amet</div>
-              <div class="blog__description">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            </div>
-            <div class="blog__info">
-              <div class="blog__views">
-                <img src="./images/blog/icons/1.png" alt="" class="views__icon">
-                <div class="views__count">792</div>
+            <div class="blog__image">
+              <div class="blog__date">
+                <div class="date__day">24</div>
+                <div class="date__month">Jan</div>
               </div>
-              <div class="blog__comments">
-                <img src="./images/blog/icons/2.png" alt="" class="comments__icon">
-                <div class="comments__count">620</div>
+              <img src="./images/blog/1.jpg" alt="" class="blog__img">
+            </div>
+            <div class="blog__content">
+              <div class="blog__text">
+                <div class="blog__title">Lorem ipsum dolor sit amet</div>
+                <div class="blog__description">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
               </div>
-            </div>
-          </div>
-          <div class="blog__item">
-            <div class="blog__date">
-              <div class="date__day">18</div>
-              <div class="date__month">Apr</div>
-            </div>
-            <img src="./images/blog/2.jpg" alt="" class="blog__img">
-            <div class="blog__text">
-              <div class="blog__title">Sed do eiusmod tempor</div>
-              <div class="blog__description">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            </div>
-            <div class="blog__info">
-              <div class="blog__views">
-                <img src="./images/blog/icons/1.png" alt="" class="views__icon">
-                <div class="views__count">1917</div>
-              </div>
-              <div class="blog__comments">
-                <img src="./images/blog/icons/2.png" alt="" class="comments__icon">
-                <div class="comments__count">587</div>
+              <div class="blog__info">
+                <div class="blog__views">
+                  <img src="./images/blog/icons/1.png" alt="" class="views__icon">
+                  <div class="views__count">792</div>
+                </div>
+                <div class="blog__comments">
+                  <img src="./images/blog/icons/2.png" alt="" class="comments__icon">
+                  <div class="comments__count">620</div>
+                </div>
               </div>
             </div>
           </div>
+
+
           <div class="blog__item">
-            <div class="blog__date">
-              <div class="date__day">14</div>
-              <div class="date__month">Jul</div>
-            </div>
-            <img src="./images/blog/3.jpg" alt="" class="blog__img">
-            <div class="blog__text">
-              <div class="blog__title">Incididunt ut labore et dolore</div>
-              <div class="blog__description">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            </div>
-            <div class="blog__info">
-              <div class="blog__views">
-                <img src="./images/blog/icons/1.png" alt="" class="views__icon">
-                <div class="views__count">337</div>
+            <div class="blog__image">
+              <div class="blog__date">
+                <div class="date__day">18</div>
+                <div class="date__month">Apr</div>
               </div>
-              <div class="blog__comments">
-                <img src="./images/blog/icons/2.png" alt="" class="comments__icon">
-                <div class="comments__count">141</div>
+              <img src="./images/blog/2.jpg" alt="" class="blog__img">
+            </div>
+              <div class="blog__content">
+              <div class="blog__text">
+                <div class="blog__title">Sed do eiusmod tempor</div>
+                <div class="blog__description">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              </div>
+              <div class="blog__info">
+                <div class="blog__views">
+                  <img src="./images/blog/icons/1.png" alt="" class="views__icon">
+                  <div class="views__count">1917</div>
+                </div>
+                <div class="blog__comments">
+                  <img src="./images/blog/icons/2.png" alt="" class="comments__icon">
+                  <div class="comments__count">587</div>
+                </div>
+              </div>
+             </div>
+            </div>  
+
+
+          <div class="blog__item">
+            <div class="blog__image">
+              <div class="blog__date">
+                <div class="date__day">14</div>
+                <div class="date__month">Jul</div>
+              </div>
+              <img src="./images/blog/3.jpg" alt="" class="blog__img">
+            </div>
+            <div class="blog__content">
+              <div class="blog__text">
+                <div class="blog__title">Incididunt ut labore et dolore</div>
+                <div class="blog__description">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              </div>
+              <div class="blog__info">
+                <div class="blog__views">
+                  <img src="./images/blog/icons/1.png" alt="" class="views__icon">
+                  <div class="views__count">337</div>
+                </div>
+                <div class="blog__comments">
+                  <img src="./images/blog/icons/2.png" alt="" class="comments__icon">
+                  <div class="comments__count">141</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
     </div>
   </div>  <!-- Blog -->
+</div>
 
   <div class="map">
     <img src="./images/map/2.png" alt="" class="map__marker">
@@ -619,7 +640,7 @@
             </p>
           </div>
           <div class="subscribe__follow">
-            <span class="follow__cta">Follow Us:</span>
+            <p class="follow__cta">Follow Us:</p>
             <a href="#"><img src="./images/footer/subscribe/1.png" alt="" class="follow__icon"></a>
             <a href="#"><img src="./images/footer/subscribe/2.png" alt="" class="follow__icon"></a>
             <a href="#"><img src="./images/footer/subscribe/3.png" alt="" class="follow__icon"></a>
@@ -685,9 +706,38 @@
       </div>
     </div>
   </footer>
+  <script> 
+    let nav = document.querySelector('.header__nav');
+    let icon = document.querySelector('.nav-icon');
+    let link = document.querySelectorAll(".nav__link");
 
+    if (window.innerWidth <= 787 )  {
+        nav.classList.add('mobile');
+    }
+    
+    window.onresize = function() {
+        if (window.innerWidth <= 787 )  {
+        nav.classList.add('mobile');
+    }
+        else {
+            nav.classList.remove('mobile');
+        }
+    }
+
+    icon.addEventListener('click', function() {
+        nav.classList.toggle("active");
+        icon.classList.toggle("open");
+    })
+
+    nav.addEventListener('click', function() {
+        if(nav.classList.contains('active')) {
+            nav.classList.toggle("active");
+            icon.classList.toggle("open");
+        }
+    })
+    </script>
 </body>
-</html>
+</html> 
 
 
 

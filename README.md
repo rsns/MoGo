@@ -1,2 +1,2 @@
-# markup
-PSD to HTML
+# MoGo
+Turned PSD template into maintainable, clean code.
